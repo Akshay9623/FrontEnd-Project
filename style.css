@@ -49,6 +49,13 @@ vertical-align:middle;
     border-radius: 4px;
     cursor: pointer;
 }
+form a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-left: 6px;
+}
+
 
 /* ---------- Scroll Subject Navbar ---------- */
 .subject-navbar{
@@ -211,4 +218,126 @@ footer h5
     font-size: 13px;
     color: lightgray;
     text-align: center;
+}
+
+.hero
+{
+    background: rgb(37, 42, 53);
+    padding: 100px 20px;
+    color: white;
+}
+.hero h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.subtitle
+{
+    color: rgb(167, 167, 90);
+    font-size: 26px;
+    margin-bottom: 30px;
+}
+.search-box input{
+   width: 60%; 
+   padding: 15px;
+   border: none;
+   border-radius: 30px 0px 0px 30px;
+}
+.search-box button
+{
+    padding: 15px 25px;
+    border: none;
+    background: green;
+    color: white;
+    border-radius: 0px 30px 30px 0px;
+}
+.start-link a{
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+.login-box
+{
+    background: rgb(232, 230, 230);
+    padding: 25px;
+    border-radius: 10px;
+}
+.social div{
+    border: 1px solid lightgrey;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.fa-google{
+    color: rgb(196, 65, 65);
+    font-size: 22px;
+}
+.fa-facebook
+{
+    color: blue;
+    font-size: 22px;
+}
+.fa-square-github
+{
+    color: darkblue;
+    font-size: 22px;
+}
+.social div:hover i
+{
+    transform: scale(1.1);
+    transition: 0.25;
+}
+body{
+    background: lightgray;
+}
+
+body{
+    background:#f4f6f9;
+    font-family:Segoe UI;
+}
+
+/* ===== Sidebar ===== */
+.sidebar{
+    position:fixed;
+    width:240px;
+    height:100vh;
+    background:#0f172a;
+    padding-top:20px;
+}
+
+.sidebar h5{
+    color:#fff;
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.sidebar a{
+    display:block;
+    color:#cbd5e1;
+    padding:12px 18px;
+    text-decoration:none;
+}
+
+.sidebar a:hover{
+    background:#1e293b;
+    color:#fff;
+}
+
+/* ===== Main ===== */
+.main{
+    margin-left:240px;
+    padding:25px;
+}
+
+.card{
+    border-radius:12px;
+    border:none;
+}
+
+.topbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
 }

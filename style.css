@@ -7,13 +7,14 @@
 }
 
 .top-nav .nav-link{
-    color:black !important;
+    color:black;
     font-size:15px;
     padding:12px 15px;
 }
 
 .top-nav .nav-link:hover{
-    background-color:#04AA6D;
+    background-color:rgb(56, 56, 159);
+    color: white;
 }
 
 .logo{
@@ -39,23 +40,11 @@ width:auto;
 object-fit:contain;
 vertical-align:middle;
 }
-/* button gradient css */
-.btn-search {
-    font-size: 16px;
-    padding: 8px 16px;
-    border: none;
-    color: white;
-    background: linear-gradient(90deg, #ff9a3c, #ff4d9d, #7b2cff);
-    border-radius: 4px;
-    cursor: pointer;
-}
-form a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 6px 12px;
-    margin-left: 6px;
-}
 
+.green
+{
+    background: #ff4d9d;
+}
 
 /* ---------- Scroll Subject Navbar ---------- */
 .subject-navbar{
@@ -87,7 +76,7 @@ form a{
 }
 
 .subject-link:hover{
-    background:#04AA6D;
+    background:rgb(56, 56, 159);
 }
 
 .scroll-btn{
@@ -111,7 +100,8 @@ form a{
     display: flex;
 }
 .sideber{
-    background: linear-gradient(180deg, #cd44b8, #7a42da, #7b2cff); /* Gradient color */
+    /* background: linear-gradient(180deg, #cd44b8, #7a42da, #7b2cff);  */
+    background: rgb(56, 56, 159);
     width: 250px;        /* Sidebar width */
     padding: 10px;       /* Inner space */
     overflow-y: auto;    /* Scroll if content is more */
@@ -119,13 +109,14 @@ form a{
 }
 
 .sideber a{
-    color: black;
+    color: white;
     display: block;
     padding:8px;
     text-decoration: none;
 }
 .sideber a:hover{
-    background: linear-gradient(90deg, #ff9a3c, #ff4d9d, #7b2cff); /* Same gradient */
+    /* background: linear-gradient(90deg, #ff9a3c, #ff4d9d, #7b2cff); */
+    background: rgb(56, 56, 159);
     color: white;   /* Text color */
 }
 
@@ -133,21 +124,23 @@ form a{
 {
     width: 100%;
     border: none;
-    background-color: lightgray;
+    background-color: #4949b0;
     padding: 8px;
     text-align: left;
+    color: white ;
     
 }
 .dropdown-btn:hover
 {
-     background: linear-gradient(90deg, #ff9a3c, #ff4d9d, #7b2cff); /* Same gradient */
+     /* background: linear-gradient(90deg, #ff9a3c, #ff4d9d, #7b2cff);  */
+     background: rgb(56, 56, 159);
     color: white;
 }
 .dropdown-container
 {
     display: none;
-    padding-left: 10px;
-    background-color: silver;
+    padding-left: 3px;
+    background-color: #6a6abe;
 }
 
 .content
@@ -174,10 +167,11 @@ form a{
     display: block;
     margin-bottom: 5px;
     text-decoration: none;
+    color: white;
 }
 .footer a:hover
 {
-    color: green;
+    color: #ff4d9d;
 }
 .footer-top-links
 {
@@ -222,7 +216,7 @@ footer h5
 
 .hero
 {
-    background: rgb(37, 42, 53);
+    background: #1c0249;
     padding: 100px 20px;
     color: white;
 }
@@ -247,7 +241,7 @@ footer h5
 {
     padding: 15px 25px;
     border: none;
-    background: green;
+    background: #ff4d9d;
     color: white;
     border-radius: 0px 30px 30px 0px;
 }
@@ -283,6 +277,26 @@ footer h5
     color: darkblue;
     font-size: 22px;
 }
+.fa-youtube
+{
+    font-size: 22px;
+    color: red;
+}
+.fa-linkedin
+{
+    font-size: 22px;
+    color: #0A66C2;
+}
+.fa-discord
+{
+    font-size: 22px;
+    color: #384f6b;
+}
+.fa-instagram
+{
+    font-size: 22px;
+    color: #FF47CE;
+}
 .social div:hover i
 {
     transform: scale(1.1);
@@ -302,7 +316,7 @@ body{
     position:fixed;
     width:240px;
     height:100vh;
-    background:#0f172a;
+    background:rgb(56, 56, 159);
     padding-top:20px;
 }
 
@@ -320,7 +334,7 @@ body{
 }
 
 .sidebar a:hover{
-    background:#1e293b;
+    background:#4949b0;
     color:#fff;
 }
 
